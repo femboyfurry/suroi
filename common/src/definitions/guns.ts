@@ -34,7 +34,7 @@ export const Guns: GunDefinition[] = [
         type: "gun",
         cooldown: 100,
         fireMode: "auto",
-        shotSpread: 5,
+        shotSpread: 4.5,
         fists: {
             left: v(65, 0),
             right: v(140, -10),
@@ -43,21 +43,21 @@ export const Guns: GunDefinition[] = [
         image: { position: v(120, 0) },
         capacity: Infinity,
         ballistics: {
-            damage: 10,
+            damage: 20.5,
             obstacleMultiplier: 2,
-            speed: 0.35,
+            speed: 0.715,
             speedVariance: 0,
-            maxDistance: 125
+            maxDistance: 300
         }
     },
     {
         idString: "m3k",
         name: "M3K",
         type: "gun",
-        cooldown: 1000,
+        cooldown: 333.33,
         fireMode: "single",
-        shotSpread: 7,
-        bulletCount: 9,
+        shotSpread: 9,
+        bulletCount: 24,
         fists: {
             left: v(65, 0),
             right: v(130, -10),
@@ -66,11 +66,11 @@ export const Guns: GunDefinition[] = [
         image: { position: v(100, 0) },
         capacity: Infinity,
         ballistics: {
-            damage: 7,
+            damage: 0.66,
             obstacleMultiplier: 2,
-            speed: 0.35,
-            speedVariance: 0,
-            maxDistance: 80
+            speed: 1.2,
+            speedVariance: 0.1,
+            maxDistance: 50
         }
     }
 ];
